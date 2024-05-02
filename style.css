@@ -910,9 +910,10 @@ body:not(.home) .mobile-logo {
 }
 h1 {
   margin:0 0 20px;
-  font:35px/35px 'neosans-light', Arial, Helvetica, sans-serif;
+  font:35px/35px 'Overpass', Arial, Helvetica, sans-serif;
   text-transform:uppercase;
-  color:#333
+  color:#333;
+  font-weight: bold 
 }
 h2 {
   margin:0;
@@ -15808,8 +15809,8 @@ iframe {
 }
 strong,
 b {
-  font-family:Arial;
-  font-weight:normal
+  font-family:Overpass;
+  font-weight:bold
 }
 .hide {
   display:none !important
