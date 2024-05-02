@@ -16406,7 +16406,8 @@ h1 {
   margin:0 0 20px;
   font:35px/35px 'Overpass', Arial, Helvetica, sans-serif;
   text-transform:uppercase;
-  color:#333
+  color:#333;
+  font-weight: bold
 }
 h2 {
   margin:0;
