@@ -97,30 +97,9 @@
     border-radius: 20px;
     background-size: cover;
     position: relative;
-    transition: opacity 0.5s ease-in-out;
     opacity: 1;
 ">
 </div>
-
-<script>
-    let images = ["img/banner-furmeets.jpg"];
-    let currentIndex = 0;
-    const slideshowElement = document.getElementById('slideshow');
-
-    setInterval(function() {
-        // Start fade out
-        slideshowElement.style.opacity = 0;
-
-        // After the fade-out is done (0.5 second), change the background image
-        setTimeout(function() {
-            currentIndex = (currentIndex + 1) % images.length;
-            slideshowElement.style.backgroundImage = 'url(' + images[currentIndex] + ')';
-
-            // Fade the image back in
-            slideshowElement.style.opacity = 1;
-        }, 500); // Match the timeout to the fade duration (0.5s)
-    }, 11000); // Change image every 3 seconds (0.5s fade-out + 2s display + 0.5s fade-in)
-</script>
 </div></div></div>
                                                                     </div>
 							                        <div>
