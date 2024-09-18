@@ -252,7 +252,7 @@ a {
   text-decoration:none
 }
 @font-face {
-  font-family:'Overpass';
+  font-family:'SUSE';
   src:url("/web/20210405182826im_/https://ds12k1658w1f2.cloudfront.net/wp-content/themes/metrotrains/library/css/fonts/282729_1_0.eot");
   src:url("/web/20210405182826im_/https://ds12k1658w1f2.cloudfront.net/wp-content/themes/metrotrains/library/css/fonts/282729_1_0.eot#iefix") format("embedded-opentype"),
   url("/web/20210405182826im_/https://ds12k1658w1f2.cloudfront.net/wp-content/themes/metrotrains/library/css/fonts/282729_1_0.woff") format("woff"),
@@ -910,7 +910,7 @@ body:not(.home) .mobile-logo {
 }
 h1 {
   margin:0 0 20px;
-  font:35px/35px 'Overpass', Arial, Helvetica, sans-serif;
+  font:35px/35px 'SUSE', Arial, Helvetica, sans-serif;
   text-transform:uppercase;
   color:#333;
   font-weight: bold 
@@ -1588,7 +1588,7 @@ button.ui-widget {
 .gallery1 .caption .title {
   display:block;
   margin:0 0 7px;
-  font:28px/32px 'Overpass', Arial, Helvetica, sans-serif
+  font:28px/32px 'SUSE', Arial, Helvetica, sans-serif
 }
 .gallery1 span.caption .title {
   margin-bottom:0px
@@ -1598,7 +1598,7 @@ button.ui-widget {
 }
 .gallery1 .caption .link {
   display:block;
-  font:17px/20px 'Overpass', Arial, Helvetica, sans-serif
+  font:17px/20px 'SUSE', Arial, Helvetica, sans-serif
 }
 .gallery1 .caption .link:after {
   content:"";
@@ -15708,7 +15708,7 @@ td {
   font-weight:inherit;
   font-style:inherit;
   font-size:100%;
-  font-family:Overpass;
+  font-family:SUSE;
   vertical-align:baseline
 }
 :focus {
@@ -15747,7 +15747,7 @@ a {
   text-decoration:none
 }
 @font-face {
-  font-family:'Overpass';
+  font-family:'SUSE';
   src:url("/web/20210405182826im_/https://ds12k1658w1f2.cloudfront.net/wp-content/themes/metrotrains/library/css/fonts/282729_1_0.eot");
   src:url("/web/20210405182826im_/https://ds12k1658w1f2.cloudfront.net/wp-content/themes/metrotrains/library/css/fonts/282729_1_0.eot#iefix") format("embedded-opentype"),
   url("/web/20210405182826im_/https://ds12k1658w1f2.cloudfront.net/wp-content/themes/metrotrains/library/css/fonts/282729_1_0.woff") format("woff"),
@@ -15810,7 +15810,7 @@ iframe {
 }
 strong,
 b {
-  font-family:Overpass;
+  font-family:SUSE;
   font-weight:bold
 }
 .hide {
@@ -16405,7 +16405,7 @@ body:not(.home) .mobile-logo {
 }
 h1 {
   margin:0 0 20px;
-  font:35px/35px 'Overpass', Arial, Helvetica, sans-serif;
+  font:35px/35px 'SUSE', Arial, Helvetica, sans-serif;
   text-transform:uppercase;
   color:#333;
   font-weight: bold
@@ -17017,7 +17017,7 @@ button.ui-widget {
 }
 .navs-area h3 {
   color:#fff;
-  font-family:Overpass;
+  font-family:SUSE;
   margin:0;
   text-transform:uppercase
 }
@@ -17083,7 +17083,7 @@ button.ui-widget {
 .gallery1 .caption .title {
   display:block;
   margin:0 0 7px;
-  font:28px/32px 'Overpass', Arial, Helvetica, sans-serif
+  font:28px/32px 'SUSE', Arial, Helvetica, sans-serif
 }
 .gallery1 span.caption .title {
   margin-bottom:0px
@@ -17093,7 +17093,7 @@ button.ui-widget {
 }
 .gallery1 .caption .link {
   display:block;
-  font:17px/20px 'Overpass', Arial, Helvetica, sans-serif
+  font:17px/20px 'SUSE', Arial, Helvetica, sans-serif
 }
 .gallery1 .caption .link:after {
   content:"";
