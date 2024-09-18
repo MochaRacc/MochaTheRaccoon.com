@@ -51,21 +51,21 @@
 	<title>Next Furmeets | Mocha The Raccoon</title>
 		
 	
-	<meta name="viewport" content="width=device-width">
-	<meta property="og:title" content="Next Furmeets | Mocha The Raccoon">
-	<meta property="og:url" content="/fumeets">
-	<meta property="og:description" content="Furmeets that I (Mocha The Raccoon) am attending">
+	<meta property="og:title" content="Next Furmeets - Mocha The Raccoon">
+	<meta property="og:url" content="/">
+	<meta property="og:description" content="See what furmeets I'm atttending">
 		<meta property="og:image" content="img/logo.png">
 	<!-- For everything else -->
 	<link rel="shortcut icon" href="img/favicon.png">
+<meta name="theme-color" content="#FF0054">
 	
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="pingback" href="https://www.metrotrains.com.au/xmlrpc.php">
     <link rel="stylesheet" href="jquery.mCustomScrollbar.css" type="text/css" media="all">
     <link rel="stylesheet" href="/slick.css" type="text/css" media="all">
-	<link rel="stylesheet" href="style.css" type="text/css" media="all">
-	<link rel="stylesheet" href="ipad.css" type="text/css" media="all">
-    <link rel="stylesheet" href="jquery.multiselect.css" type="text/css" media="all">
+	<link rel="stylesheet" href="/style.css" type="text/css" media="all">
+	<link rel="stylesheet" href="/ipad.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/jquery.multiselect.css" type="text/css" media="all">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=SUSE">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
@@ -90,12 +90,53 @@
                             </h1>
                             <img class="logo-print" src="" alt="Metro">
                         </div>
-						                            <div class="carousel slick-initialized slick-slider">
-                                                                        <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; border-radius: 20px; width: 1024px; transform: translate3d(0px, 0px, 0px);"><div style="background-image: url(&quot;/furmeets.jpg&quot;); width: 1024px; border-radius: 20px;" class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="0">
-                                        </div></div></div>
+						                        <div id="slideshow" style="
+    background-image: url('img/banner-furmeets.jpg');
+    width: 1024px;
+    height: 320px;
+    border-radius: 20px;
+    background-size: cover;
+    position: relative;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+">
+</div>
+
+<script>
+    let images = ["img/banner-furmeets.jpg"];
+    let currentIndex = 0;
+    const slideshowElement = document.getElementById('slideshow');
+
+    setInterval(function() {
+        // Start fade out
+        slideshowElement.style.opacity = 0;
+
+        // After the fade-out is done (0.5 second), change the background image
+        setTimeout(function() {
+            currentIndex = (currentIndex + 1) % images.length;
+            slideshowElement.style.backgroundImage = 'url(' + images[currentIndex] + ')';
+
+            // Fade the image back in
+            slideshowElement.style.opacity = 1;
+        }, 500); // Match the timeout to the fade duration (0.5s)
+    }, 11000); // Change image every 3 seconds (0.5s fade-out + 2s display + 0.5s fade-in)
+</script>
+</div></div></div>
                                                                     </div>
 							                        <div>
-                                <div class="nav-holder" style="display: flex; justify-content: center; align-items: center; gap: 40px;">
+                            <div class="slide">
+                                <div class="nav-holder">
+                                    <div class="fixed-search">
+                                        <form class="search-form" action="https://web.archive.org/web/20210405182834/https://www.metrotrains.com.au/" method="GET">
+                                            <fieldset>
+                                                
+                                                <input tabindex="2" accesskey="4" type="text" placeholder="Search..." title="Search" class="search-input" name="s">
+                                                <input tabindex="3" type="submit" value="Go">
+                                            </fieldset>
+                                        </form>
+                                        <div id="nav__close"></div>
+                                    </div>
+<div class="nav-holder" style="display: flex; justify-content: center; align-items: center; gap: 40px;">
   <style>
     .nav-holder i {
       color: white;
