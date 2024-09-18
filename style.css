@@ -301,7 +301,7 @@ body {
   margin:0;
   min-width:320px;
   font:16px/22px Calibri, Arial, sans-serif;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   background:#FF0054;
   -webkit-text-size-adjust:100%;
   -ms-text-size-adjust:none
@@ -1819,7 +1819,7 @@ a.twitter-box {
   background:#fff
 }
 .info-area .heading {
-  background:#333;
+  background:#fff;
   padding:20px 30px;
   margin:0
 }
@@ -1937,7 +1937,7 @@ a.twitter-box {
 }
 #main .info-list li a {
   box-sizing:border-box;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   display:flex;
   padding-left:39px;
   padding-top:5px;
@@ -2417,7 +2417,7 @@ a.twitter-box {
   font:16px/20px 'neosans-medium', Arial, Helvetica, sans-serif;
   text-transform:uppercase;
   text-align:center;
-  background:#333
+  background:#fff
 }
 #main .main-tabs .tabset li:hover {
   background:#000
@@ -2952,7 +2952,7 @@ span.logo-pt {
 }
 #main #menu-line-and-station-links li a {
   align-items:center;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   display:flex;
   font-size:16px;
   line-height:1.57;
@@ -3000,7 +3000,7 @@ span.logo-pt {
   align-items:center;
   background-color:rgba(255,255,255,0.8);
   font-size:16px;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   height:55px;
   transition:background-color 0.3s ease;
   white-space:nowrap;
@@ -3087,7 +3087,7 @@ span.logo-pt {
 .line-schedule {
   font-size:16px;
   display:flex;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   justify-content:center
 }
 .line-schedule .icon {
@@ -3188,7 +3188,7 @@ span.logo-pt {
   border-bottom:1px solid #e5e5e5;
   padding:0px 1.5% 10px;
   font:16px/20px 'Arial', Arial, Helvetica, sans-serif;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   background:none;
   text-transform:none
 }
@@ -4520,7 +4520,7 @@ div.lightbox .details-form .select-03 {
   margin-right:-100%;
   padding:2px 20px;
   background:transparent;
-  background:rgba(0,0,0,0.8);
+  background:rgba(255,255,255);
   -webkit-border-radius:15px;
   -moz-border-radius:15px;
   border-radius:15px;
@@ -4545,7 +4545,7 @@ div.lightbox .details-form .select-03 {
   color:#fff;
   padding:10px;
   background:#000;
-  background:rgba(0,0,0,0.8)
+  background:rgba(255,255,255)
 }
 .area2-overlay {
   background:-moz-linear-gradient(top, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%);
@@ -4793,7 +4793,7 @@ hr {
   line-height:30px
 }
 .important-details-row div a {
-  color:#333
+  color:#fff
 }
 .important-details-right {
   margin-left:30px;
@@ -4839,11 +4839,11 @@ hr {
 }
 .further-info-header {
   margin:0;
-  color:#333;
+  color:#fff;
   font:26px 'neosans-regular', Arial, Helvetica, sans-serif
 }
 .Important {
-  color:#333;
+  color:#fff;
   font:20px 'neosans-regular', Arial, Helvetica, sans-serif;
   text-transform:uppercase
 }
@@ -4881,7 +4881,7 @@ hr {
   font:12px/14px 'neosans-medium', Arial, Helvetica, sans-serif;
   text-transform:uppercase;
   text-align:center;
-  background:#333
+  background:#fff
 }
 #main .page-tabs-4 .tabset li {
   width:25%
@@ -5675,7 +5675,7 @@ table.nolines td {
     margin-bottom:0
   }
   #header .box h3 {
-    color:rgba(0,0,0,0.8);
+    color:rgba(255,255,255);
     font-family:Arial;
     margin:0
   }
@@ -5732,7 +5732,7 @@ table.nolines td {
     width:auto
   }
   #nav a {
-    color:rgba(0,0,0,0.8);
+    color:rgba(255,255,255);
     height:auto
   }
   #nav li:first-child a {
@@ -7683,7 +7683,7 @@ table.nolines td {
   height:0
 }
 .page-content {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   background-color:#fff;
   font-size:14px;
   line-height:20px;
@@ -7856,7 +7856,7 @@ table.nolines td {
   float:none
 }
 #pw__notification {
-  background-color:rgba(0,0,0,0.8);
+  background-color:rgba(255,255,255);
   background-image:url(/web/20210405182826im_/https://ds12k1658w1f2.cloudfront.net/wp-content/themes/metrotrains/library/img/bell-icon.svg);
   background-position:15px 7px;
   background-repeat:no-repeat;
@@ -8071,7 +8071,7 @@ table.nolines td {
 .pw__date,
 .pw__title,
 .pw__lines {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   line-height:1.38
 }
 .pw__date,
@@ -8578,7 +8578,7 @@ table.nolines td {
 }
 .line_start-wrap.active,
 .line_end-wrap.active {
-  background-color:rgba(0,0,0,0.8) !important;
+  background-color:rgba(255,255,255) !important;
   color:#fff !important
 }
 .line_start-wrap:hover,
@@ -8721,7 +8721,7 @@ table.nolines td {
   margin-bottom:15px
 }
 #pw__popup-content-lines {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   display:flex;
   font-family:Arial;
   flex-wrap:wrap;
@@ -8764,7 +8764,7 @@ table.nolines td {
   width:188px !important
 }
 .planned-works-all #t__header .select-area .center {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   margin-right:0;
   padding-left:19px;
   padding-top:9px
@@ -8778,7 +8778,7 @@ table.nolines td {
   top:14px
 }
 .planned-works-all #t__header .filter-text {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   margin-right:9px
 }
 .planned-works-all #t__header .sort-by {
@@ -8867,8 +8867,8 @@ table.nolines td {
   top:-2px
 }
 .t__btn.active {
-  background-color:rgba(0,0,0,0.8) !important;
-  border-color:rgba(0,0,0,0.8);
+  background-color:rgba(255,255,255) !important;
+  border-color:rgba(255,255,255);
   color:#fff;
   cursor:default;
   pointer-events:none
@@ -8912,7 +8912,7 @@ table.nolines td {
   height:31px
 }
 .t__row-header {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   font-family:Arial;
   flex-grow:0;
   flex-shrink:0;
@@ -9236,7 +9236,7 @@ table.nolines td {
   font-family:Arial;
   font-size:16px;
   line-height:14px;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   text-transform:none
 }
 #t__header-times-date .ui-datepicker-calendar th {
@@ -9268,14 +9268,14 @@ table.nolines td {
 }
 #t__header-times-date .ui-datepicker-calendar .ui-datepicker-today a {
   background-color:#fff;
-  color:rgba(0,0,0,0.8)
+  color:rgba(255,255,255)
 }
 #t__header-times-date .ui-datepicker-calendar a:hover {
   background-color:#FF0054;
   color:#fff
 }
 #t__header-times-date .ui-widget-content a {
-  color:rgba(0,0,0,0.8)
+  color:rgba(255,255,255)
 }
 #t__header-times-date .ui-datepicker-next .ui-icon,
 #t__header-times-date .ui-datepicker-prev .ui-icon {
@@ -10537,7 +10537,7 @@ table.nolines td {
 }
 #news__list .news__content {
   box-sizing:border-box;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   display:flex;
   font-size:15px;
   line-height:24px;
@@ -10650,7 +10650,7 @@ article .banner img {
   line-height:24px;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
-  color:rgba(0,0,0,0.8)
+  color:rgba(255,255,255)
 }
 #article__content blockquote p {
   font-family:"neosans-regular";
@@ -10779,7 +10779,7 @@ article .banner img {
 #article__content .a__table table th {
   background-color:transparent;
   border-bottom:1px solid #d9d9d9;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   font-family:Arial;
   font-size:16px;
   padding-top:0;
@@ -10990,7 +10990,7 @@ article .banner img {
   align-items:center;
   border:1px solid #979797;
   border-radius:4px;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   cursor:pointer;
   display:flex;
   font-family:"neosans-regular";
@@ -11517,7 +11517,7 @@ article .banner img {
   width:calc(28.878% - 16px)
 }
 #page__general .section__inner-image:after {
-  background:linear-gradient(180deg, rgba(0,0,0,0) 43.52%, rgba(0,0,0,0.8) 100%);
+  background:linear-gradient(180deg, rgba(0,0,0,0) 43.52%, rgba(255,255,255) 100%);
   content:"";
   height:100%;
   left:0;
@@ -11586,7 +11586,7 @@ article .banner img {
   width:100%
 }
 #page__general .tile__btn {
-  background:linear-gradient(180deg, rgba(0,0,0,0) 60.98%, rgba(0,0,0,0.8) 100%);
+  background:linear-gradient(180deg, rgba(0,0,0,0) 60.98%, rgba(255,255,255) 100%);
   box-sizing:border-box;
   display:flex;
   height:100%;
@@ -11955,7 +11955,7 @@ article .banner img {
 }
 #page__general .gform_wrapper form .gform_body .ginput_container_fileupload:before {
   align-items:center;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   content:"Choose File";
   display:flex;
   font-family:"neosans-regular";
@@ -13663,7 +13663,7 @@ h2.flex a#pw__notification:hover {
   background-position-y:.125rem;
   background-repeat:no-repeat;
   background-size:.875rem;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   font-family:"Calibri";
   line-height:1.5;
   margin-top:1.5625rem;
@@ -13711,7 +13711,7 @@ h2.flex a#pw__notification:hover {
   text-transform:none
 }
 #pw__calendar table th a {
-  color:rgba(0,0,0,0.8)
+  color:rgba(255,255,255)
 }
 #pw__calendar table th a:hover {
   text-decoration:none
@@ -14141,7 +14141,7 @@ h2.flex a#pw__notification:hover {
   display:inline-flex !important
 }
 #pw__single-right {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   font-family:Arial;
   font-size:.875rem;
   width:28.5%
@@ -14450,7 +14450,7 @@ h2.flex a#pw__notification:hover {
 }
 #pw__single-right .pw__single-station-group-inner>div .pw__popup-wrap .pw__popup-options>div.active,
 #pw__single-right .pw__single-station-group-inner>div .pw__popup-wrap .pw__popup-options>div:hover {
-  background-color:rgba(0,0,0,0.8);
+  background-color:rgba(255,255,255);
   color:#fff
 }
 #pw__single-right .pw__single-station-group-inner>div .pw__popup-wrap .pw__popup:after {
@@ -14517,7 +14517,7 @@ h2.flex a#pw__notification:hover {
   margin-bottom:0
 }
 #pw__single-lines {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   display:flex;
   flex-wrap:wrap;
   font-family:Arial;
@@ -14580,8 +14580,8 @@ h2.flex a#pw__notification:hover {
   margin-right:0
 }
 #pw__single-allowance {
-  border-bottom:.0625rem solid rgba(0,0,0,0.8);
-  border-top:.0625rem solid rgba(0,0,0,0.8);
+  border-bottom:.0625rem solid rgba(255,255,255);
+  border-top:.0625rem solid rgba(255,255,255);
   display:flex;
   margin:1.75rem 0
 }
@@ -14880,7 +14880,7 @@ h2.flex a#pw__notification:hover {
     padding-right:1.3125rem
   }
   #pw__single-bus-table-wrap.mobile {
-    border-top:1px solid rgba(0,0,0,0.8);
+    border-top:1px solid rgba(255,255,255);
     display:block;
     font-family:"Calibri";
     font-size:1.125rem;
@@ -15046,7 +15046,7 @@ h2.flex a#pw__notification:hover {
   padding:0
 }
 #acc__nav ul li a {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   transition:color 0.3s ease
 }
 #acc__nav ul li a:hover,
@@ -15119,30 +15119,30 @@ h2.flex a#pw__notification:hover {
   background-color:#e7e7e7;
   border-radius:.25rem;
   box-shadow:none;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   height:2.1875rem;
   max-width:17.4375rem;
   padding-left:.75rem;
   width:100%
 }
 #acc__header-filter input::-webkit-input-placeholder {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   opacity:1
 }
 #acc__header-filter input:-moz-placeholder {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   opacity:1
 }
 #acc__header-filter input::-moz-placeholder {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   opacity:1
 }
 #acc__header-filter input:-ms-input-placeholder {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   opacity:1
 }
 #acc__header-filter input:placeholder-shown {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   opacity:1
 }
 #acc__table {
@@ -15333,7 +15333,7 @@ h2.flex a#pw__notification:hover {
   border-right:.0625rem solid rgba(0,0,0,0.2)
 }
 .acc__stations {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   display:none;
   position:relative;
   width:100%
@@ -15361,7 +15361,7 @@ h2.flex a#pw__notification:hover {
   cursor:pointer
 }
 .acc__stations .acc__table-row .acc__table-cell.has-station-tooltip .acc__tooltip {
-  color:rgba(0,0,0,0.8) !important;
+  color:rgba(255,255,255) !important;
   transform:translate3d(5px, calc(-100% - 6px), 0)
 }
 .acc__stations .acc__table-row .acc__table-cell.has-station-tooltip .acc__tooltip.center {
@@ -15796,7 +15796,7 @@ body {
   margin:0;
   min-width:320px;
   font:16px/22px Calibri, Arial, sans-serif;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   background:#FF0054;
   -webkit-text-size-adjust:100%;
   -ms-text-size-adjust:none
@@ -16407,7 +16407,7 @@ h1 {
   margin:0 0 20px;
   font:35px/35px 'SUSE', Arial, Helvetica, sans-serif;
   text-transform:uppercase;
-  color:#333;
+  color:#fff;
   font-weight: bold
 }
 h2 {
@@ -16425,7 +16425,7 @@ h3 {
   margin:0;
   margin-top:10px;
   margin-bottom:10px;
-  color:#333;
+  color:#fff;
   font:16px Arial, Helvetica, sans-serif;
   text-transform:uppercase;
 }
@@ -17314,7 +17314,7 @@ a.twitter-box {
   background:#fff
 }
 .info-area .heading {
-  background:#333;
+  background:#fff;
   padding:20px 30px;
   margin:0
 }
@@ -17432,7 +17432,7 @@ a.twitter-box {
 }
 #main .info-list li a {
   box-sizing:border-box;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   display:flex;
   padding-left:39px;
   padding-top:5px;
@@ -17912,7 +17912,7 @@ a.twitter-box {
   font:16px/20px 'neosans-medium', Arial, Helvetica, sans-serif;
   text-transform:uppercase;
   text-align:center;
-  background:#333
+  background:#fff
 }
 #main .main-tabs .tabset li:hover {
   background:#000
@@ -18447,7 +18447,7 @@ span.logo-pt {
 }
 #main #menu-line-and-station-links li a {
   align-items:center;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   display:flex;
   font-size:16px;
   line-height:1.57;
@@ -18495,7 +18495,7 @@ span.logo-pt {
   align-items:center;
   background-color:rgba(255,255,255,0.8);
   font-size:16px;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   height:55px;
   transition:background-color 0.3s ease;
   white-space:nowrap;
@@ -18582,7 +18582,7 @@ span.logo-pt {
 .line-schedule {
   font-size:16px;
   display:flex;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   justify-content:center
 }
 .line-schedule .icon {
@@ -18683,7 +18683,7 @@ span.logo-pt {
   border-bottom:1px solid #e5e5e5;
   padding:0px 1.5% 10px;
   font:16px/20px 'Arial', Arial, Helvetica, sans-serif;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   background:none;
   text-transform:none
 }
@@ -20015,7 +20015,7 @@ div.lightbox .details-form .select-03 {
   margin-right:-100%;
   padding:2px 20px;
   background:transparent;
-  background:rgba(0,0,0,0.8);
+  background:rgba(255,255,255);
   -webkit-border-radius:15px;
   -moz-border-radius:15px;
   border-radius:15px;
@@ -20040,7 +20040,7 @@ div.lightbox .details-form .select-03 {
   color:#fff;
   padding:10px;
   background:#000;
-  background:rgba(0,0,0,0.8)
+  background:rgba(255,255,255)
 }
 .area2-overlay {
   background:-moz-linear-gradient(top, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%);
@@ -20288,7 +20288,7 @@ hr {
   line-height:30px
 }
 .important-details-row div a {
-  color:#333
+  color:#fff
 }
 .important-details-right {
   margin-left:30px;
@@ -20334,11 +20334,11 @@ hr {
 }
 .further-info-header {
   margin:0;
-  color:#333;
+  color:#fff;
   font:26px 'neosans-regular', Arial, Helvetica, sans-serif
 }
 .Important {
-  color:#333;
+  color:#fff;
   font:20px 'neosans-regular', Arial, Helvetica, sans-serif;
   text-transform:uppercase
 }
@@ -20376,7 +20376,7 @@ hr {
   font:12px/14px 'neosans-medium', Arial, Helvetica, sans-serif;
   text-transform:uppercase;
   text-align:center;
-  background:#333
+  background:#fff
 }
 #main .page-tabs-4 .tabset li {
   width:25%
@@ -21170,7 +21170,7 @@ table.nolines td {
     margin-bottom:0
   }
   #header .box h3 {
-    color:rgba(0,0,0,0.8);
+    color:rgba(255,255,255);
     font-family:Arial;
     margin:0
   }
@@ -21227,7 +21227,7 @@ table.nolines td {
     width:auto
   }
   #nav a {
-    color:rgba(0,0,0,0.8);
+    color:rgba(255,255,255);
     height:auto
   }
   #nav li:first-child a {
@@ -23178,7 +23178,7 @@ table.nolines td {
   height:0
 }
 .page-content {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   background-color:#fff;
   font-size:14px;
   line-height:20px;
@@ -23351,7 +23351,7 @@ table.nolines td {
   float:none
 }
 #pw__notification {
-  background-color:rgba(0,0,0,0.8);
+  background-color:rgba(255,255,255);
   background-image:url(/web/20210405182826im_/https://ds12k1658w1f2.cloudfront.net/wp-content/themes/metrotrains/library/img/bell-icon.svg);
   background-position:15px 7px;
   background-repeat:no-repeat;
@@ -23566,7 +23566,7 @@ table.nolines td {
 .pw__date,
 .pw__title,
 .pw__lines {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   line-height:1.38
 }
 .pw__date,
@@ -24073,7 +24073,7 @@ table.nolines td {
 }
 .line_start-wrap.active,
 .line_end-wrap.active {
-  background-color:rgba(0,0,0,0.8) !important;
+  background-color:rgba(255,255,255) !important;
   color:#fff !important
 }
 .line_start-wrap:hover,
@@ -24216,7 +24216,7 @@ table.nolines td {
   margin-bottom:15px
 }
 #pw__popup-content-lines {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   display:flex;
   font-family:Arial;
   flex-wrap:wrap;
@@ -24259,7 +24259,7 @@ table.nolines td {
   width:188px !important
 }
 .planned-works-all #t__header .select-area .center {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   margin-right:0;
   padding-left:19px;
   padding-top:9px
@@ -24273,7 +24273,7 @@ table.nolines td {
   top:14px
 }
 .planned-works-all #t__header .filter-text {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   margin-right:9px
 }
 .planned-works-all #t__header .sort-by {
@@ -24362,8 +24362,8 @@ table.nolines td {
   top:-2px
 }
 .t__btn.active {
-  background-color:rgba(0,0,0,0.8) !important;
-  border-color:rgba(0,0,0,0.8);
+  background-color:rgba(255,255,255) !important;
+  border-color:rgba(255,255,255);
   color:#fff;
   cursor:default;
   pointer-events:none
@@ -24407,7 +24407,7 @@ table.nolines td {
   height:31px
 }
 .t__row-header {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   font-family:Arial;
   flex-grow:0;
   flex-shrink:0;
@@ -24731,7 +24731,7 @@ table.nolines td {
   font-family:Arial;
   font-size:16px;
   line-height:14px;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   text-transform:none
 }
 #t__header-times-date .ui-datepicker-calendar th {
@@ -24763,14 +24763,14 @@ table.nolines td {
 }
 #t__header-times-date .ui-datepicker-calendar .ui-datepicker-today a {
   background-color:#fff;
-  color:rgba(0,0,0,0.8)
+  color:rgba(255,255,255)
 }
 #t__header-times-date .ui-datepicker-calendar a:hover {
   background-color:#FF0054;
   color:#fff
 }
 #t__header-times-date .ui-widget-content a {
-  color:rgba(0,0,0,0.8)
+  color:rgba(255,255,255)
 }
 #t__header-times-date .ui-datepicker-next .ui-icon,
 #t__header-times-date .ui-datepicker-prev .ui-icon {
@@ -26032,7 +26032,7 @@ table.nolines td {
 }
 #news__list .news__content {
   box-sizing:border-box;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   display:flex;
   font-size:15px;
   line-height:24px;
@@ -26145,7 +26145,7 @@ article .banner img {
   line-height:24px;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
-  color:rgba(0,0,0,0.8)
+  color:rgba(255,255,255)
 }
 #article__content blockquote p {
   font-family:"neosans-regular";
@@ -26274,7 +26274,7 @@ article .banner img {
 #article__content .a__table table th {
   background-color:transparent;
   border-bottom:1px solid #d9d9d9;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   font-family:Arial;
   font-size:16px;
   padding-top:0;
@@ -26485,7 +26485,7 @@ article .banner img {
   align-items:center;
   border:1px solid #979797;
   border-radius:4px;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   cursor:pointer;
   display:flex;
   font-family:"neosans-regular";
@@ -27012,7 +27012,7 @@ article .banner img {
   width:calc(28.878% - 16px)
 }
 #page__general .section__inner-image:after {
-  background:linear-gradient(180deg, rgba(0,0,0,0) 43.52%, rgba(0,0,0,0.8) 100%);
+  background:linear-gradient(180deg, rgba(0,0,0,0) 43.52%, rgba(255,255,255) 100%);
   content:"";
   height:100%;
   left:0;
@@ -27081,7 +27081,7 @@ article .banner img {
   width:100%
 }
 #page__general .tile__btn {
-  background:linear-gradient(180deg, rgba(0,0,0,0) 60.98%, rgba(0,0,0,0.8) 100%);
+  background:linear-gradient(180deg, rgba(0,0,0,0) 60.98%, rgba(255,255,255) 100%);
   box-sizing:border-box;
   display:flex;
   height:100%;
@@ -27450,7 +27450,7 @@ article .banner img {
 }
 #page__general .gform_wrapper form .gform_body .ginput_container_fileupload:before {
   align-items:center;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   content:"Choose File";
   display:flex;
   font-family:"neosans-regular";
@@ -29158,7 +29158,7 @@ h2.flex a#pw__notification:hover {
   background-position-y:.125rem;
   background-repeat:no-repeat;
   background-size:.875rem;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   font-family:"Calibri";
   line-height:1.5;
   margin-top:1.5625rem;
@@ -29206,7 +29206,7 @@ h2.flex a#pw__notification:hover {
   text-transform:none
 }
 #pw__calendar table th a {
-  color:rgba(0,0,0,0.8)
+  color:rgba(255,255,255)
 }
 #pw__calendar table th a:hover {
   text-decoration:none
@@ -29636,7 +29636,7 @@ h2.flex a#pw__notification:hover {
   display:inline-flex !important
 }
 #pw__single-right {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   font-family:Arial;
   font-size:.875rem;
   width:28.5%
@@ -29945,7 +29945,7 @@ h2.flex a#pw__notification:hover {
 }
 #pw__single-right .pw__single-station-group-inner>div .pw__popup-wrap .pw__popup-options>div.active,
 #pw__single-right .pw__single-station-group-inner>div .pw__popup-wrap .pw__popup-options>div:hover {
-  background-color:rgba(0,0,0,0.8);
+  background-color:rgba(255,255,255);
   color:#fff
 }
 #pw__single-right .pw__single-station-group-inner>div .pw__popup-wrap .pw__popup:after {
@@ -30012,7 +30012,7 @@ h2.flex a#pw__notification:hover {
   margin-bottom:0
 }
 #pw__single-lines {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   display:flex;
   flex-wrap:wrap;
   font-family:Arial;
@@ -30075,8 +30075,8 @@ h2.flex a#pw__notification:hover {
   margin-right:0
 }
 #pw__single-allowance {
-  border-bottom:.0625rem solid rgba(0,0,0,0.8);
-  border-top:.0625rem solid rgba(0,0,0,0.8);
+  border-bottom:.0625rem solid rgba(255,255,255);
+  border-top:.0625rem solid rgba(255,255,255);
   display:flex;
   margin:1.75rem 0
 }
@@ -30375,7 +30375,7 @@ h2.flex a#pw__notification:hover {
     padding-right:1.3125rem
   }
   #pw__single-bus-table-wrap.mobile {
-    border-top:1px solid rgba(0,0,0,0.8);
+    border-top:1px solid rgba(255,255,255);
     display:block;
     font-family:"Calibri";
     font-size:1.125rem;
@@ -30541,7 +30541,7 @@ h2.flex a#pw__notification:hover {
   padding:0
 }
 #acc__nav ul li a {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   transition:color 0.3s ease
 }
 #acc__nav ul li a:hover,
@@ -30614,30 +30614,30 @@ h2.flex a#pw__notification:hover {
   background-color:#e7e7e7;
   border-radius:.25rem;
   box-shadow:none;
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   height:2.1875rem;
   max-width:17.4375rem;
   padding-left:.75rem;
   width:100%
 }
 #acc__header-filter input::-webkit-input-placeholder {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   opacity:1
 }
 #acc__header-filter input:-moz-placeholder {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   opacity:1
 }
 #acc__header-filter input::-moz-placeholder {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   opacity:1
 }
 #acc__header-filter input:-ms-input-placeholder {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   opacity:1
 }
 #acc__header-filter input:placeholder-shown {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   opacity:1
 }
 #acc__table {
@@ -30828,7 +30828,7 @@ h2.flex a#pw__notification:hover {
   border-right:.0625rem solid rgba(0,0,0,0.2)
 }
 .acc__stations {
-  color:rgba(0,0,0,0.8);
+  color:rgba(255,255,255);
   display:none;
   position:relative;
   width:100%
@@ -30856,7 +30856,7 @@ h2.flex a#pw__notification:hover {
   cursor:pointer
 }
 .acc__stations .acc__table-row .acc__table-cell.has-station-tooltip .acc__tooltip {
-  color:rgba(0,0,0,0.8) !important;
+  color:rgba(255,255,255) !important;
   transform:translate3d(5px, calc(-100% - 6px), 0)
 }
 .acc__stations .acc__table-row .acc__table-cell.has-station-tooltip .acc__tooltip.center {
