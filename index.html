@@ -89,9 +89,38 @@
                             </h1>
                             <img class="logo-print" src="" alt="Metro">
                         </div>
-						                            <div class="carousel slick-initialized slick-slider">
-                                                                        <div style="background-image: url(&quot;/pride-banner.jpg&quot;); width: 1024px;border-radius: 20px;" border-radius:="" 20px;="" class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="0">
-									</div></div></div></div>
+						                        <div id="slideshow" style="
+    background-image: url('/pride-banner.jpg');
+    width: 1024px;
+    height: 500px;
+    border-radius: 20px;
+    background-size: cover;
+    position: relative;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+">
+</div>
+
+<script>
+    let images = ["/pride-banner.jpg", "/banner.jpg"];
+    let currentIndex = 0;
+    const slideshowElement = document.getElementById('slideshow');
+
+    setInterval(function() {
+        // Start fade out
+        slideshowElement.style.opacity = 0;
+
+        // After the fade-out is done (1 second), change the background image
+        setTimeout(function() {
+            currentIndex = (currentIndex + 1) % images.length;
+            slideshowElement.style.backgroundImage = 'url(' + images[currentIndex] + ')';
+
+            // Fade the image back in
+            slideshowElement.style.opacity = 1;
+        }, 1000); // Match the timeout to the fade duration
+    }, 4000); // Change image every 4 seconds (1s fade-out + 2s display + 1s fade-in)
+</script>
+</div></div></div>
                                                                     </div>
 							                        <div>
                             <div class="slide">
