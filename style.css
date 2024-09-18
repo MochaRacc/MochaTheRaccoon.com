@@ -1719,7 +1719,7 @@ button.ui-widget {
 .news-block .box img {
   display:block;
   height:auto;
-  width:100%
+  width:100%;
   border-radius: 20px;
 }
 .news-block .box:nth-child(3n+3) {
@@ -5944,7 +5944,7 @@ table.nolines td {
     margin-right:0
   }
   .news-block .box img {
-    width:100%
+    width:100%;
   border-radius: 20px;
   }
   .info-area {
@@ -17214,7 +17214,7 @@ button.ui-widget {
 .news-block .box img {
   display:block;
   height:auto;
-  width:100%
+  width:100%;
   border-radius: 20px;
 }
 .news-block .box:nth-child(3n+3) {
@@ -21439,7 +21439,7 @@ table.nolines td {
     margin-right:0
   }
   .news-block .box img {
-    width:100%
+    width:100%;
   border-radius: 20px;
   }
   .info-area {
