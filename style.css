@@ -12055,10 +12055,10 @@ article .banner img {
   display:none
 }
 #page__general .gform_wrapper form .gform_body>ul>li .ginput_container_radio ul li input:checked+label:before {
-  border-color:#FF0054
+  border-color:#000
 }
 #page__general .gform_wrapper form .gform_body>ul>li .ginput_container_radio ul li input:checked+label:after {
-  background-color:#FF0054;
+  background-color:#000;
   content:"";
   border-radius:50%;
   box-sizing:border-box;
