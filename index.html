@@ -1,52 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta property="og:title" content="Mocha The Raccoon">
-    <meta property="og:url" content="/">
-    <meta property="og:description" content="Currently under maintenance">
-    <meta property="og:image" content="img/logo.png">
-    <!-- For everything else -->
-    <link rel="shortcut icon" href="img/favicon.png">
-    <meta name="theme-color" content="#FF0054">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rethink+Sans">
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mocha The Raccoon</title>
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Rethink Sans, sans-serif;
-        }
-        img {
-            max-width: 150px;
-            margin-bottom: 20px;
-            filter: invert(100%); /* This ensures the image is inverted to black */
-        }
-        .redirect-text {
-            text-align: center;
-        }
-        .redirect-text a {
-            color: #ff0054;
-            text-decoration: none;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="google" content="notranslate">
+<meta http-equiv="Content-Language" content="en">
+<!--- METATAGS --->
+<title>Mocha The Raccoon</title>
+<meta property="og:title" content="Mocha The Raccoon">
+<meta property="og:url" content="/">
+<meta property="og:description" content="Hi, I'm Mocha The Raccoon!">
+<meta property="og:image" content="img/logo.png">
+<link rel="shortcut icon" href="img/favicon.png">
+<meta name="theme-color" content="#FF0054">
+<!--- STYLESHEETS --->
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/slick.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/ipad.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/jquery.multiselect.css" type="text/css" media="all">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rethink+Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
-<body>
 
-    <!-- Logo in the center -->
-    <img id="myImg" src="img/logo.png" alt="Logo">
+<!--- LOGO AND SOCIAL MEDIA LINKS ---> 
+<p>&nbsp;</p>
+<div id="header__top">
+  <div id="header__back">
+    <a href="#"></a>
+  </div>
+  <div id="header__hamburger"></div>
+      <center><img src="img/logo.png" title="Mocha The Raccoon" width="15%"></center>
+</div>
+<div class="nav-holder" style="display: flex; justify-content: center; align-items: center; gap: 40px;">
+  <style>
+    .nav-holder i {
+      color: white;
+      font-size: 50px;
+      transition: transform 0.3s ease;
+    }
 
-    <!-- Text below the logo -->
-    <div class="redirect-text">
-        <p>Site Under Maintenance</p>
-        <p>The site will return at approx. 8PM AEDT</p>
+    .nav-holder i:hover {
+      transform: scale(1.2);
+    }
+
+    .nav-holder {
+      font-family: 'FontAwesome', sans-serif;
+    }
+  </style>
+
+  <a href="https://youtube.com/@MochaRacc" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+  <a href="https://twitter.com/MochaRacc_" target="_blank" title="Twitter/X"><i class="fab fa-twitter"></i></a>
+  <a href="https://instagram.com/MochaRacc" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+  <a href="https://t.me/MochaRacc" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+  <a href="https://discord.gg/AkbVzef" target="_blank" title="Discord Server"><i class="fab fa-discord"></i></a>
+  <a href="https://ko-fi.com/MochaTheRaccoon" target="_blank" title="Ko-Fi"><i class="fa-solid fa-mug-saucer"></i></a>
+  <a href="https://bsky.app/profile/mochatheraccoon.com" target="_blank" title="Ko-Fi"><i class="fa-brands fa-bluesky"></i></a>
+</div></div>
+<p>&nbsp;</p>
+<!--- BANNER --->
+<center><div id="slideshow" style="
+    background-image: url('img/banner1.jpg');
+    width: 1024px;
+    height: 320px;
+    border-radius: 45px 0px 0px 45px;
+    background-size: cover;
+    position: relative;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+">
+</div></center>
+
+<script>
+    let images = ["img/banner1.jpg", "img/banner.jpg"];
+    let currentIndex = 0;
+    const slideshowElement = document.getElementById('slideshow');
+
+    setInterval(function() {
+        // Start fade out
+        slideshowElement.style.opacity = 0;
+
+        // After the fade-out is done (0.5 second), change the background image
+        setTimeout(function() {
+            currentIndex = (currentIndex + 1) % images.length;
+            slideshowElement.style.backgroundImage = 'url(' + images[currentIndex] + ')';
+
+            // Fade the image back in
+            slideshowElement.style.opacity = 1;
+        }, 500); // Match the timeout to the fade duration (0.5s)
+    }, 11000); // Change image every 3 seconds (0.5s fade-out + 2s display + 0.5s fade-in)
+</script>
+</div></div></div>
+                                                                    </div>
+							                        <div>
+                            <div class="slide">
+<p>&nbsp;</p>
+
+				    <br> 
+				
+                            </div>
+                        </div>
+                    </div>
+				</header>
+				<div id="main">
+				
+<!--- NEWS BLOCKS --->
+<div class="main-sector">
+    <div id="hb__general" style="">
+
+        <div id="hb__general-inner">
+            <div id="hb__general-title">
+                <strong>
+
+                </strong>
+            </div>
+            <div id="hb__general-content">
+
+            </div>
+        </div>
     </div>
+<section class="news-block">
+	<div class="holder">
+					<div class="box">
+				<a href="https://www.youtube.com/watch?v=KbbAw11BTII" target="_blank">
+					<img src="img/new-mocha.jpg" title="▮▮▮NEW▮▮▮MOCHA▮▮▮OCTOBER▮▮▮1ST">
+					<span class="txt"></span>
+				</a>
+			</div>
+						<div class="box">
+				<a href="/furmeets" target="_self">
+					<img src="img/furmeets.jpg" title="See what Furmeets I'm going to, come say Hi!">
+					<span class="txt"></span>
+				</a>
+			</div>
+						<div class="box">
+				<a href="https://t.me/MochaRaccoonUpdates" target="_blank">
+					<img src="img/tg.jpg" title="Join the Mocha's Updates Telegram channel!">
+					<span class="txt"></span>
+				</a>
+			</div>
+					
+	</div>
+</section>
+					</div>
+				</div>
+			</div>
+<!--- FOOTER --->
+           <center> <div id="footer__wrap">
+                <div class="container">
+                    <footer id="footer">
+                                            <div class="logo2">
+                                    <a href="/">
+                                        <img src="img/logo.png" title="Mocha The Raccoon" width="25%">
+                                    </a>
+					<p>© Mocha The Raccoon - 2024</p>
+                                </div>
+                    </footer>
+                    </footer>
+                </div></center>
+            </div>
+		</div>
+		<div id="back"><a href="#">Back to top</a></div>
+        <div class="lightbox-popup-holder">
+            <div id="popup1" class="lightbox">
 
-</body>
-</html>
+                
+              
+	
+
+ 
+
+
+</body></html>
