@@ -13656,6 +13656,8 @@ img2 {
 	display: flex;
 	padding-bottom: 16px;
 	padding-top: 17px;
+  justify-content: center;
+  align-items: center;
 }
 
 .top-image img {
