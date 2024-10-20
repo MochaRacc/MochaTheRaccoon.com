@@ -13653,11 +13653,23 @@ img2 {
 }
 
 #header__top {
-	display: flex;
-	padding-bottom: 16px;
-	padding-top: 17px;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Centers items vertically */
+  height: 100px; /* Adjust based on your layout needs */
+  position: relative;
+  padding-bottom: 16px;
+  padding-top: 17px;
+}
+
+#header__back,
+#header__hamburger {
+  position: absolute;
+  left: 10px; /* or any value */
+}
+
+#header__hamburger {
+  right: 10px; /* Aligns to the right */
 }
 
 .top-image img {
@@ -14512,9 +14524,15 @@ h3 {
 		height: 58px;
 	}
 	
-       .logo2 {
-                text-align: center;
-        }
+.logo2 img {
+  display: block;
+  margin: 0 auto;
+}
+
+h1.logo {
+  flex-grow: 1; /* Allows the logo section to take remaining space */
+  text-align: center;
+}
 
 	.logo a {
 		width: 51px;
