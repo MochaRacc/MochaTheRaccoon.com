@@ -13652,24 +13652,25 @@ img2 {
 	z-index: 10;
 }
 
+/* Parent container to use Flexbox */
 #header__top {
   display: flex;
-  justify-content: center; /* Centers items horizontally */
+  justify-content: center; /* Centers all items horizontally */
   align-items: center; /* Centers items vertically */
-  height: 100px; /* Adjust based on your layout needs */
   position: relative;
-  padding-bottom: 16px;
-  padding-top: 17px;
+  height: 100px; /* Adjust this based on your header's height */
+  width: 100%; /* Make sure the header takes full width */
 }
 
-#header__back,
+/* Back button and hamburger positioning */
+#header__back {
+  position: absolute;
+  left: 10px; /* Adjust as needed */
+}
+
 #header__hamburger {
   position: absolute;
-  left: 10px; /* or any value */
-}
-
-#header__hamburger {
-  right: 10px; /* Aligns to the right */
+  right: 10px; /* Adjust as needed */
 }
 
 .top-image img {
@@ -14516,22 +14517,15 @@ h3 {
 		margin-bottom: 10px;
 	}
 
-	.logo {
-		z-index: 2;
-		top: 0;
-		left: 23px;
-		width: 53px;
-		height: 58px;
-	}
-	
-.logo2 img {
-  display: block;
-  margin: 0 auto;
+/* Ensure logo image is centered within its container */
+.logo {
+  text-align: center;
+  flex-grow: 1; /* This forces the logo section to take up the available space */
 }
 
-h1.logo {
-  flex-grow: 1; /* Allows the logo section to take remaining space */
-  text-align: center;
+.logo img {
+  display: block;
+  margin: 0 auto;
 }
 
 	.logo a {
