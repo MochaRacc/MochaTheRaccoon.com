@@ -5561,6 +5561,8 @@ table.nolines td {
 
 .desktop-only {
 	display: inherit;
+	align-items: center
+	
 }
 
 .mobile-only {
