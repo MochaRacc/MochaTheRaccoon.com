@@ -1753,7 +1753,6 @@ button.ui-widget {
 	display: block;
 	height: auto;
 	width: 100%;
-	border-radius: 20px;
 }
 
 .news-block .box:nth-child(3n+3) {
