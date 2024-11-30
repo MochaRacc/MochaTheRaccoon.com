@@ -13658,8 +13658,6 @@ img2 {
   justify-content: center; /* Centers all items horizontally */
   align-items: center; /* Centers items vertically */
   position: relative;
-  height: 100px; /* Adjust this based on your header's height */
-  width: 100%; /* Make sure the header takes full width */
 }
 
 /* Back button and hamburger positioning */
