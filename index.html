@@ -1,159 +1,62 @@
 <!DOCTYPE html>
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="google" content="notranslate">
-<meta http-equiv="Content-Language" content="en">
-<!--- METATAGS --->
-<title>Mocha The Raccoon</title>
-<meta property="og:title" content="Mocha The Raccoon">
-<meta property="og:url" content="/">
-<meta property="og:description" content="Hi, I'm Mocha The Raccoon!">
-<meta property="og:image" content="img/logo.png">
-<link rel="shortcut icon" href="img/favicon.png">
-<meta name="theme-color" content="#FF0054">
-<!--- STYLESHEETS --->
-<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" type="text/css" media="all">
-<link rel="stylesheet" href="css/slick.css" type="text/css" media="all">
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-<link rel="stylesheet" href="css/ipad.css" type="text/css" media="all">
-<link rel="stylesheet" href="css/jquery.multiselect.css" type="text/css" media="all">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rethink+Sans">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mocha The Raccoon</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/98255028?v=4" type="image/x-icon" />
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- meta:og -->
+    <meta name="theme-color" content="#ff0054">
+    <meta property="og:title" content="Mocha The Raccoon">
+	  <meta property="og:url" content="/">
+	  <meta property="og:description" content="">
+		<meta property="og:image" content="https://avatars.githubusercontent.com/u/98255028?v=4">
+  </head>
 
-<!--- LOGO AND SOCIAL MEDIA LINKS ---> 
-<p>&nbsp;</p>
-<div id="header__top" style="display: flex; align-items: center; padding: 10px;">
-  <!-- Logo Section -->
-  <div id="header__logo" style="display: flex; align-items: center;">
-    <a href="#">
-      <img src="img/christmas-logo.png" alt="Merry Chirstmas from Mocha The Raccoon" title="Merry Chirstmas from Mocha The Raccoon" style="width: 25%;">
-    </a>
-  </div>
+  <body>
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+      <div id="stars1"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+   <!-- End of Parallax Pixel Background Animation -->
 
-  <!-- Navigation Icons -->
-  <div class="nav-holder" style="display: flex; align-items: center; gap: 20px;">
-    <style>
-      .nav-holder i {
-        color: white;
-        font-size: 30px;
-        transition: transform 0.3s ease;
-      }
+    <div id="profilePicture">
+      <img src="/test/logo.png" title="Mocha The Raccoon">
+    </div>
 
-      .nav-holder i:hover {
-        transform: scale(1.2);
-      }
+    <div id="links">
+      <a class="link" href="https://youtube.com/@MochaRacc" target="_blank">
+        <i class="fab fa-youtube">&nbsp;</i>YouTube
+      </a>
+      <a class="link" href="https://www.twitter.com/MochaRacc_" target="_blank">
+        <i class="fab fa-twitter">&nbsp;</i>Twitter/X
+      </a>
+      <a class="link" href="https://instagram.com/MochaRacc" target="_blank">
+        <i class="fab fa-instagram">&nbsp;</i>Instagram
+      </a>
+      <a class="link" href="https://t.me/MochaRacc" target="_blank">
+        <i class="fab fa-telegram">&nbsp;</i>Telegram
+      </a>
+      <a class="link" href="https://bsky.app/profile/mochara.cc" target="_blank">
+        <i class="fab fa-bluesky">&nbsp;</i>Bluesky
+      </a>
+      <a class="link" href="https://ko-fi.com/MochaTheRaccoon" target="_blank">
+        <i class="fa-solid fa-mug-saucer">&nbsp;</i>Ko-Fi
+      </a>
+      <a class="link" href="https://www.tiktok.com/@mocharacc" target="_blank">
+        <i class="fab fa-tiktok">&nbsp;</i>TikTok
+      </a>
+    </div>
 
-      .nav-holder {
-        font-family: 'FontAwesome', sans-serif;
-      }
-    </style>
-    <a href="https://youtube.com/@MochaRacc" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
-    <a href="https://twitter.com/MochaRacc_" target="_blank" title="Twitter/X"><i class="fab fa-twitter"></i></a>
-    <a href="https://instagram.com/MochaRacc" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-    <a href="https://twitch.tv/mocharacc" target="_blank" title="Bluesky"><i class="fa-brands fa-twitch"></i></a>
-    <a href="https://t.me/MochaRacc" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
-    <a href="https://discord.gg/AkbVzef" target="_blank" title="Discord Server"><i class="fab fa-discord"></i></a>
-    <a href="https://ko-fi.com/MochaTheRaccoon" target="_blank" title="Ko-Fi"><i class="fa-solid fa-mug-saucer"></i></a>
-    <a href="https://bsky.app/profile/mochatheraccoon.com" target="_blank" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
-  </div>
-</div>
-
-<p>&nbsp;</p>
-<!--- BANNER --->
-<center><div id="slideshow" style="
-    background-image: url('img/banner.jpg');
-    width: 1024px;
-    height: 320px;
-    background-size: cover;
-    position: relative;
-    opacity: 1;
-    : ;
-">
-</div></center>
-</div></div></div>
-                                                                    </div>
-							                        <div>
-                            <div class="slide">
-<p>&nbsp;</p>
-
-				    <br> 
-				
-                            </div>
-                        </div>
-                    </div>
-				</header>
-				<div id="main">
-				
-<!--- NEWS BLOCKS --->
-<div class="main-sector">
-<section class="news-block">
-	<div class="holder">
-					<div class="box">
-				<a href="https://mochara.cc/live" target="_blank">
-					<img src="img/live.jpg" title="Watch Mocha live on Twitch">
-					<span class="txt"></span>
-				</a>
-			</div>
-						<div class="box">
-				<a href="/furmeets" target="_self">
-					<img src="img/furmeets.jpg" title="See what Furmeets I'm going to, come say Hi!">
-					<span class="txt"></span>
-				</a>
-			</div>
-						<div class="box">
-				<a href="https://t.me/MochaRaccoonUpdates" target="_blank">
-					<img src="img/tg.jpg" title="Join the Mocha's Updates Telegram channel!">
-					<span class="txt"></span>
-				</a>
-			</div>
-
-
-	</div>
-
-</div>
-
-</section>
-					</div>
-				</div>
-			</div>
-      <!-- STREAM SCHEDULE 
-      <center><div class="slideshow"><a href="/img/stream-schedule.png" target="_self"> <img style="
-        background-image: url('img/stream-schedule-banner.jpg');
-        width: 1024px;
-        height: 320px;
-        background-size: cover;
-        position: relative;
-        opacity: 1;
-        : ;
-    ">
-    </a></div></center> -->
-
-<!--- FOOTER --->
-           <center> <div id="footer__wrap">
-                <div class="container">
-                    <footer id="footer">
-                                            <div class="logo2">
-                                    <a href="/">
-                                        <img src="img/logo.png" title="Mocha The Raccoon" width="25%">
-                                    </a>
-					<p>© Mocha The Raccoon - 2025</p>
-                                </div>
-                    </footer>
-                    </footer>
-                </div></center>
-            </div>
-		</div>
-		<div id="back"><a href="#">Back to top</a></div>
-        <div class="lightbox-popup-holder">
-            <div id="popup1" class="lightbox">
-
-                
-              
-	
-
- 
-
-
-</body></html>
+    <div id="userName">
+      © 2025 - Mocha The Raccoon
+    </div>
+  </body>
+</html>
