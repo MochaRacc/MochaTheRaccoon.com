@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=SUSE:400,700&display=swap');
+@import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
 
 :root {
     --bgColor: #ff0054;
     --bgColor2: #ff0054;
     --accentColor: #fff;
-    --font: 'SUSE', sans-serif;
+    --font: 'GothamPro', sans-serif;
     --delay: .3s;
 }
 
