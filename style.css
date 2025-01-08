@@ -21,6 +21,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    letter-spacing: -1px;
 }
 
 #profilePicture, #profilePicture img {
