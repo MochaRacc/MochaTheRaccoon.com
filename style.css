@@ -157,6 +157,16 @@ body {
     }
 }
 
+@keyframes float {
+	from {
+		transform: translateY(3%);
+	}
+
+	to {
+		transform: translateY(0%);
+	}
+}
+
 
 /*-------------------------popup------------------------*/
 /* credits: https://www.youtube.com/watch?v=lAS2glU0xlc */
