@@ -114,9 +114,9 @@ body {
 }
 
 #mochuhh {
-	bottom: 50px;
+	bottom: 0px;
 	height: 1300px;
-	right: -70%;
+	right: -48%;
 	position: fixed;
 	transform: translate(-35%) scale(0.4);
 	z-index: 9999;
