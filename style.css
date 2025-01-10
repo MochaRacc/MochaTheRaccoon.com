@@ -113,6 +113,19 @@ body {
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
+#mochuhh {
+	bottom: 50px;
+	height: 1300px;
+	right: -70%;
+	position: fixed;
+	transform: translate(-35%) scale(0.4);
+	z-index: 9999;
+}
+
+#mochuhh>img {
+	animation: 2s float ease-in-out infinite alternate;
+}
+
 
 /*-------------------------animations-----------------------*/
 @keyframes transitionAnimation {
