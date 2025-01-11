@@ -1,8 +1,6 @@
 @import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
 
 :root {
-    --bgColor: #ff0054;
-    --bgColor2: #ff0054;
     --accentColor: #fff;
     --font: 'GothamPro', sans-serif;
     --delay: .3s;
@@ -13,13 +11,9 @@ body {
     padding: 0;
     min-height: 100vh;
     font-family: var(--font);
-    background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
-    /* background-image: url('https://bit.ly/3nFVqJh'); */
-    opacity: 0;
+    background: #ff0054
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     letter-spacing: -1px;
 }
