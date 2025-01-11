@@ -34,8 +34,35 @@
     </div>
 
     <div id="topText">
-      hi all, working on improving the website so bare with me in the meantime ✌️
+      now playing: euro truck sim 2
     </div>
+
+    <script>
+      // Array of random texts
+      const randomTexts = [
+          "tell them to bring out the whole ocean",
+          "burschurger",
+          "they're building a munnel under melbourne",
+          "tell my tax man that i did NOT buy thigh highs",
+          "im a sized mclaren mcl38 if anyone is curious",
+          "collingwood supporters dni",
+          "now playing: #41 by dave matthews band",
+          ":3",
+          "dr pepper and a raccoon goes well",
+          "buy angy paws (not sponsored)",
+          "working on racc attacc products",
+          "GET OUT OF MY ROOM IM PLAYING MINECRAFT !!!",
+          "IMG_3452.jpg",
+          "🦝🛹"
+      ];
+
+      // Select the element
+      const topTextElement = document.getElementById('topText');
+
+      // Pick a random text
+      const randomIndex = Math.floor(Math.random() * randomTexts.length);
+      topTextElement.textContent = randomTexts[randomIndex];
+  </script>
 
     <div id="links">
       <a class="link" href="https://youtube.com/@MochaRacc" target="_blank">
