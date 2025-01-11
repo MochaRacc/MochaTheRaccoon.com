@@ -11,12 +11,17 @@ body {
     padding: 0;
     min-height: 100vh;
     font-family: var(--font);
-    background: #ff0054
+    background: url("/img/bg.png"), #ff0054;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
     position: relative;
     letter-spacing: -1px;
 }
+
+#grad1 {
+	height: 500px;
+	background-image: linear-gradient(to top, rgba(255,0,84,0), rgba(255,0,84,1));
+  }
 
 #profilePicture, #profilePicture img {
     position: relative;
