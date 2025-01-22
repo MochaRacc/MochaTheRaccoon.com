@@ -6,9 +6,8 @@
 
 body {
     background: #7f679b;
-    font-family: 'Nexa', sans-serif;
+    font-family: 'Nexa Bold', sans-serif;
     font-size: 24pt;
-    font-weight: bold;
 }
 
 canvas {
@@ -40,7 +39,6 @@ canvas {
 #topText {
     font-weight: bold;
     font-size: 1rem;
-    letter-spacing: -1px;
     line-height: 1.25;
     display: block;
     font-family: var(--font);
