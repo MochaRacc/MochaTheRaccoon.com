@@ -5,9 +5,9 @@
 
 body {
     background: #ff0054;
-    font-family: 'Neulis Alt', sans-serif;
+    font-family: 'Satoshi', sans-serif;
     font-size: 24pt;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.1;
 }
 
@@ -38,7 +38,7 @@ canvas {
 }
 
 #topText {
-    font-weight: bold;
+    font-family: 'Satoshi', sans-serif;
     font-size: 1rem;
     line-height: 1.25;
     display: block;
@@ -49,6 +49,7 @@ canvas {
 }
 
 #links>a {
+    font-family: 'MBA Slice Mono', sans-serif;
     color: #fff;
     display: table;
     font-weight: 500;
@@ -90,10 +91,10 @@ canvas {
 
 #mochuhh {
 	bottom: 0px;
-	height: 1100px;
-	right: -50%;
+	height: 981px;
+	right: -119%;
 	position: fixed;
-	transform: translate(-35%) scale(0.5);
+	transform: translate(-35%) scale(0.2);
 	z-index: 9999;
 }
 
